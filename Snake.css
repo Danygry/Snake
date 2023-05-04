@@ -1,0 +1,15 @@
+body {                          /* STILE PAGINA */
+    background: #252525;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {                        /* STILE TITOLO */
+    color: aliceblue;
+}
+
+.gioco {               /* STILE TITOLO INFERIORE */
+    font-size: 40px;
+    font-weight: bold;
+    color: deepskyblue;
+}
