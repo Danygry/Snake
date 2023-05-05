@@ -120,3 +120,7 @@ function placeFood() {
     // coordinate in y
     foodY = Math.floor(Math.random() * total_row) * blockSize;
 }
+
+function refreshPage(){
+    window.location.reload();
+}
