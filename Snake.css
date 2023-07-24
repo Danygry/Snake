@@ -8,18 +8,7 @@ body {                          /* STILE PAGINA */
     align-items: center;
 }
 
-h1 {                        /* STILE TITOLO */
-    color: aliceblue;
-}
-
-.gioco {               /* STILE TITOLO INFERIORE */
-    font-size: 40px;
-    font-weight: bold;
-    color: deepskyblue;
-}
-
-
-button {
+button {                /* STILE PULSANTE */
     position: relative;
     left: -30px;
     top: 50px;
@@ -31,3 +20,11 @@ button {
     cursor: pointer;
     min-height: 30px;
 }
+           /* STILE LOGO PAGINA */
+.user_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
