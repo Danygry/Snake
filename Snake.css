@@ -1,3 +1,4 @@
+
 body {                          /* STILE PAGINA */
     background: #252525;
     text-align: center;
@@ -18,13 +19,58 @@ button {                /* STILE PULSANTE */
     border-radius: 15px;
     border-color:#8DD9FC;
     cursor: pointer;
-    min-height: ;
+    min-height: 30px;
 }
            /* STILE LOGO PAGINA */
 .user_img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+          /* POPUP PUBBLICITARIO */
+.popup {
+    width: 200px;
+    height: 400px;
+    background: #fefefe;
+    margin: 40px auto;
+    padding: 15px 14px;
+    position: relative;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { color: #ff5e3b; /* colore link */
+     text-decoration: none;
+} 
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    display: none;
+}
+
+#close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    color: grey;
+    width: -200px;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #000000;
+    -webkit-background-clip: text;
+    width: 187px;
 }
 
 
